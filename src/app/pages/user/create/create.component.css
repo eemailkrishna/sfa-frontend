@@ -1,0 +1,25 @@
+@media (min-width: 768px){
+    .form-horizontal .control-label {
+        text-align: left!important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .form-group {
+        margin-bottom: 0px!important;
+    }
+}    
+@media (min-width: 992px){
+    .col-md-3 {
+        width: 15%!important;
+    }
+    .col-md-2 {
+        width: 18.666667%;
+    }
+}
+.form-control{
+    height: 40px!important;
+}
+
+.form-horizontal .control-label {
+    line-height: 11px!important;
+}

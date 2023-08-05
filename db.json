@@ -1,0 +1,21 @@
+{
+  "login": [
+    {
+      "name": "Krishna Bhardwaj",
+      "email": "eemail.krishna@gmail.com",
+      "mobile": "917093475",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Krishna Bhardwaj",
+      "email": "eemail.krishna@gmail.com",
+      "mobile": "917093475",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "user": [
+    
+  ]
+}

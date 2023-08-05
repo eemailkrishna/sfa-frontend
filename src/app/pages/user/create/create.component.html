@@ -1,0 +1,96 @@
+<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Forms Stuff</a></li>
+    <li class="active">Add User</li>
+</ul>
+<!-- END BREADCRUMB -->
+<!-- PAGE TITLE -->
+<div class="page-title">                    
+    <h2><span class="fa fa-arrow-circle-o-left"></span>User</h2>
+</div>
+<!-- END PAGE TITLE -->                
+<!-- PAGE CONTENT WRAPPER -->
+<div class="page-content-wrap">                
+    <div class="row">
+        <div class="col-md-12">                        
+            <!-- START JQUERY VALIDATION PLUGIN -->
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>Add User</h3>
+                    <form   [formGroup]="loginForm" (ngSubmit)="loginForm.valid && login()" novalidate id="jvalidate" role="form" class="form-horizontal"  >
+                        <div class="panel-body">   
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Name: <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="name" name="name" class="form-control" placeholder="Enter user name"  required />
+                                    <span *ngIf="loginForm.controls['name'].dirty && loginForm.hasError('required','name') " style="color:red" >Name field is required</span>
+                                </div>
+                                
+                            </div>                                                                   
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">E-mail: <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="email" formControlName="email" email pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  name="email" class="form-control" placeholder="Enter user email"  required/>
+                                    <span *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')" style="color:red" >Email field is required</span>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Contact No. <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="number" name="number" class="form-control" placeholder="Enter user contact"  required />  
+                                    <span *ngIf="loginForm.controls['number'].dirty && loginForm.hasError('required','number')" style="color:red" >Contact Number field is required</span>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Designation <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="designation" name="designation" class="form-control" placeholder="Enter user designation"  required />  
+                                    <span *ngIf="loginForm.controls['designation'].dirty && loginForm.hasError('required','designation')" style="color:red" >Designation  field is required</span>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Organization <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="organization" name="organization" class="form-control" placeholder="Enter organization name"  required />                                       
+                                    <span *ngIf="loginForm.controls['organization'].dirty && loginForm.hasError('required','organization')" style="color:red" >Organization  field is required</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Company <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="company"  name="company_id" class="form-control" placeholder="Enter company name"  required />                                       
+                                    <span *ngIf="loginForm.controls['company'].dirty && loginForm.hasError('required','company')" style="color:red" >Company  field is required</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Password <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="password" name="password" class="form-control" placeholder="Enter password"  required />                                       
+                                    <span *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')" style="color:red" >Password  field is required</span>
+                                
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Confirm Password <span class="text-danger"> *</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" formControlName="c_password"  name="c_password" class="form-control" placeholder="Enter confirm password"  required />
+                                    <span *ngIf="loginForm.controls['c_password'].dirty && loginForm.hasError('required','c_password')" style="color:red" >Confirm Password  field is required</span>
+
+                                </div>
+                            </div>
+                            <div class="btn-group pull-right col-md-2">
+                                <button [disabled]="!loginForm.valid" class="btn btn-primary" type="submit">Submit</button>
+                            </div>                                                                                                                          
+                        </div>                                               
+                    </form>
+                </div>
+            </div>
+            <!-- END JQUERY VALIDATION PLUGIN -->
+        </div>
+    </div>
+</div>
