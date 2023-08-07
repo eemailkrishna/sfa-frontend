@@ -11,8 +11,10 @@ import { CommonService } from 'src/app/core/services/common.service';
 })
 export class CreateComponent implements OnInit {
   loginForm!: FormGroup;
-  api: any;
-  constructor(private formBuilder: FormBuilder,api:CommonService) {}
+  successMessage: string = '';
+  errorMessage: string = '';
+  // api: any;
+  constructor(private formBuilder: FormBuilder, private api: CommonService) {}
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group(
@@ -31,20 +33,26 @@ export class CreateComponent implements OnInit {
       }
     );
   }
-  
 
-  login() {
-    if (this.loginForm.valid) {
-      var formData = this.loginForm.value;
-       console.log(formData.name);
-
-      this.api.post('user',formData).subscribe((data: any) => {
-        console.log(data);
-        if (data.code == 200) {
-          
-        // this.gallery = data.res;
-        }
-      })
-    }
+  userSignup() {
+    const formData: any = this.loginForm.value;
+    this.api.post('user', formData).subscribe(
+      (response) => {
+        this.successMessage = 'Data inserted not successfully!';
+        this.errorMessage = ''; // Clear any previous error message
+        this.resetForm();
+        setTimeout(() => {
+          this.successMessage = '';
+        }, 3000);
+      },
+      (error) => {
+        console.error('Error inserting data:', error);
+        this.errorMessage = '!Something went wrong,  Data not inseted ' + error.message;
+        this.successMessage = ''; // Clear any previous success message
+      }
+    );
+  }
+  resetForm() {
+    // this.loginForm.reset();
   }
 }

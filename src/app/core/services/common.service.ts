@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,11 +12,11 @@ export class CommonService {
 
   constructor(private http: HttpClient) { }
 
-  get1(url: string) {
+  get(url: string) {
     return this.http.get(`${this.apiUrl}${url}`);
   }
 
-  post(url: string, req: object) {
+  post(url: string, req:object) {
     return this.http.post(`${this.apiUrl}${url}`, req);
   }
 

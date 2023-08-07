@@ -17,7 +17,10 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <h3>Add User</h3>
-                    <form   [formGroup]="loginForm" (ngSubmit)="loginForm.valid && login()" novalidate id="jvalidate" role="form" class="form-horizontal"  >
+                    <div *ngIf="successMessage || errorMessage" class="{{ successMessage!=''?'success-message:'error-message'}}" >
+                        {{ successMessage || errorMessage }}
+                      </div>
+                    <form   [formGroup]="loginForm" (ngSubmit)="loginForm.valid && userSignup()" novalidate id="jvalidate" role="form" class="form-horizontal"  >
                         <div class="panel-body">   
                             <div class="form-group">
                                 <label class="col-md-3 control-label">Name: <span class="text-danger"> *</span></label>

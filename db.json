@@ -16,6 +16,258 @@
     }
   ],
   "user": [
-    
+    {
+      "name": "sonam",
+      "email": "krishna@gmail.com",
+      "number": "9898",
+      "designation": "jfkdjfk",
+      "organization": "djfkldjk",
+      "company": "dkfjdkj",
+      "password": "123",
+      "c_password": "123",
+      "id": 1
+    },
+    {
+      "name": "sonam",
+      "email": "krishna@gmail.com",
+      "number": "9898",
+      "designation": "jfkdjfk",
+      "organization": "djfkldjk",
+      "company": "dkfjdkj",
+      "password": "123",
+      "c_password": "123",
+      "id": 2
+    },
+    {
+      "name": "krishna",
+      "email": "admin@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "1234",
+      "c_password": "1234",
+      "id": 3
+    },
+    {
+      "name": "admin",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9992774351",
+      "designation": "jfkdjfk",
+      "organization": "djfkldjk",
+      "company": "djfkdk",
+      "password": "123",
+      "c_password": "123",
+      "id": 4
+    },
+    {
+      "name": "krishna",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "123",
+      "c_password": "123",
+      "id": 5
+    },
+    {
+      "name": "aman",
+      "email": "admin@gmail.com",
+      "number": "9992774351",
+      "designation": "jfkdjfk",
+      "organization": "dkjfkdj",
+      "company": "dfdfd",
+      "password": "1234",
+      "c_password": "1234",
+      "id": 6
+    },
+    {
+      "name": "krishna",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "1111",
+      "c_password": "1111",
+      "id": 7
+    },
+    {
+      "name": "sonam",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "admin",
+      "c_password": "admin",
+      "id": 8
+    },
+    {
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "123",
+      "c_password": "123",
+      "id": 9
+    },
+    {
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "123",
+      "c_password": "123",
+      "id": 10
+    },
+    {
+      "name": "sonam",
+      "email": "admin@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "dfdfd",
+      "password": "122",
+      "c_password": "122",
+      "id": 11
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "krishna@gmail.com",
+      "number": "9415155",
+      "designation": "web developer",
+      "organization": "krishna",
+      "company": "company name",
+      "password": "123",
+      "c_password": "123",
+      "id": 12
+    },
+    {
+      "name": "krishnq",
+      "email": "krishna@gmail.com",
+      "number": "7877987",
+      "designation": "web devleoper",
+      "organization": "kutumbh",
+      "company": "rebliss",
+      "password": "123",
+      "c_password": "123",
+      "id": 13
+    },
+    {
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "web developer",
+      "organization": "krishna",
+      "company": "company name",
+      "password": "321",
+      "c_password": "321",
+      "id": 14
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "sdfgh",
+      "organization": "dkjfkdj",
+      "company": "djfkdk",
+      "password": "1234",
+      "c_password": "1234",
+      "id": 15
+    },
+    {
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "web developer",
+      "organization": "krishna",
+      "company": "company name",
+      "password": "123",
+      "c_password": "123",
+      "id": 16
+    },
+    {
+      "name": "krishn",
+      "email": "kriedj@gmail.com",
+      "number": "djfkdjkl",
+      "designation": "dfjdklj",
+      "organization": "djfkdsjk",
+      "company": "dfjkdj",
+      "password": "123",
+      "c_password": "123",
+      "id": 17
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9992774351",
+      "designation": "web developer",
+      "organization": "dkjfkdj",
+      "company": "dfdfd",
+      "password": "1234",
+      "c_password": "1234",
+      "id": 18
+    },
+    {
+      "name": "sonam",
+      "email": "krishna@gmail.com",
+      "number": "9992774351",
+      "designation": "web developer",
+      "organization": "dkjfkdj",
+      "company": "company name",
+      "password": "admin",
+      "c_password": "admin",
+      "id": 19
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "web developer",
+      "organization": "dkjfkdj",
+      "company": "company name",
+      "password": "admin",
+      "c_password": "admin",
+      "id": 20
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "web developer",
+      "organization": "krishna",
+      "company": "company name",
+      "password": "123",
+      "c_password": "123",
+      "id": 21
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "web developer",
+      "organization": "krishna",
+      "company": "company name",
+      "password": "1234",
+      "c_password": "1234",
+      "id": 22
+    },
+    {
+      "name": "krishna bhardwaj",
+      "email": "eemail.krishna@gmail.com",
+      "number": "9140934715",
+      "designation": "web developer",
+      "organization": "krishna",
+      "company": "dfdfd",
+      "password": "123",
+      "c_password": "123",
+      "id": 23
+    }
   ]
 }

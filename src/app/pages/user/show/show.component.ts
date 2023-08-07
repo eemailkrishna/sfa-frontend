@@ -17,7 +17,7 @@ export class ShowComponent implements OnInit{
   public gallery: any = [];
 
   constructor(private api: CommonService) {
-    this.api.get1('user').subscribe((data: any) => {
+    this.api.get('user').subscribe((data: any) => {
       console.log(data);
       if (data.code == 200) {
         
